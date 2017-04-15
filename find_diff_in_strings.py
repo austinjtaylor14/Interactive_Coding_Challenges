@@ -8,7 +8,7 @@ Created on Sat Apr 15 15:31:34 2017
 
 class Solution(object):
 
-    def find_diff(s, t):
+    def find_diff(self, s, t):
         for i in range(max(len(s), len(t))):
             try:
                 if sorted(s)[i] != sorted(t)[i]:
